@@ -1,7 +1,26 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { TrendingUp, Eye, Heart, Share } from 'lucide-react';
 
 const TikTokStats = () => {
+  const pinnedVideoIds = [
+    '7526380675844507167',
+    '7526380672710247455',
+    '7435925695869501496'
+  ];
+
+  useEffect(() => {
+    const scriptId = 'tiktok-embed-script';
+    if (!document.getElementById(scriptId)) {
+      const script = document.createElement('script');
+      script.id = scriptId;
+      script.src = 'https://www.tiktok.com/embed.js';
+      script.async = true;
+      document.body.appendChild(script);
+    } else {
+      const win = window as unknown as { tiktokEmbedInit?: () => void };
+      win.tiktokEmbedInit?.();
+    }
+  }, []);
   const stats = [
     { icon: Eye, label: 'Total Views', value: '15.2M', color: 'text-pink-500' },
     { icon: Heart, label: 'Likes', value: '2.8M', color: 'text-red-500' },
@@ -62,15 +81,16 @@ const TikTokStats = () => {
               </div>
             </div>
             
-            <div className="relative">
-              <div className="aspect-video bg-gradient-to-br from-pink-200 to-purple-200 rounded-2xl flex items-center justify-center border-2 border-pink-200 hover:border-pink-300 transition-colors duration-300 cursor-pointer group">
-                <div className="bg-white rounded-full p-6 shadow-lg group-hover:shadow-xl transition-all duration-300 transform group-hover:scale-110">
-                  <Eye className="h-12 w-12 text-pink-500" />
-                </div>
-              </div>
-              <div className="absolute -top-4 -right-4 bg-red-500 text-white px-3 py-1 rounded-full text-sm font-bold animate-pulse">
-                2.3M Views
-              </div>
+            <div>
+              {pinnedVideoIds.map((id) => (
+                <blockquote
+                  key={id}
+                  className="tiktok-embed"
+                  data-video-id={id}
+                  cite={`https://www.tiktok.com/@aquahound/video/${id}`}
+                  style={{ maxWidth: '605px', minWidth: '325px' }}
+                />
+              ))}
             </div>
           </div>
         </div>
