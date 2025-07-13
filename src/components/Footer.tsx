@@ -16,7 +16,7 @@ const Footer = () => {
               <div className="bg-gradient-to-r from-green-500 to-blue-500 p-2 rounded-lg">
                 <Leaf className="h-6 w-6 text-white" />
               </div>
-              <span className="text-xl font-bold">AquaScape Pro</span>
+              <span className="text-xl font-bold">AquaHound</span>
             </div>
             <p className="text-gray-300 mb-6 leading-relaxed">
               Transforming aquariums worldwide with premium plants and expert guidance. From viral TikTok content to your living room masterpiece.
@@ -133,7 +133,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
           <div className="text-gray-400 text-sm mb-4 md:mb-0">
-            © {currentYear} AquaScape Pro. All rights reserved.
+            © {currentYear} AquaHound. All rights reserved.
           </div>
           <div className="flex space-x-6 text-sm">
             <a href="#" className="text-gray-400 hover:text-green-400 transition-colors duration-200">Privacy Policy</a>

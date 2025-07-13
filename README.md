@@ -1,10 +1,10 @@
-# AquaScape Pro - Professional Aquatic Plant Business Website
+# AquaHound - Professional Aquatic Plant Business Website
 
 A modern, responsive e-commerce website for aquatic plant businesses, featuring comprehensive plant care guides, TikTok integration, and a complete shopping experience with PayPal checkout.
 
 ## 🌿 Overview
 
-AquaScape Pro is a professional website designed to bridge the gap between viral TikTok content and serious aquascaping business. With over 15M+ TikTok views worth of content inspiration, this platform provides detailed plant care guides, stunning visual galleries, and a seamless shopping experience for aquarium enthusiasts.
+AquaHound is a professional website designed to bridge the gap between viral TikTok content and serious aquascaping business. With over 15M+ TikTok views worth of content inspiration, this platform provides detailed plant care guides, stunning visual galleries, and a seamless shopping experience for aquarium enthusiasts.
 
 ## ✨ Features
 
@@ -324,7 +324,7 @@ The `dist/` folder contains the production-ready files.
 
 ## 📄 License
 
-This project is proprietary software for AquaScape Pro business use.
+This project is proprietary software for AquaHound business use.
 
 ## 🤝 Contributing
 
