@@ -3,9 +3,9 @@ import { TrendingUp, Eye, Heart, Share } from 'lucide-react';
 
 const TikTokStats = () => {
   const pinnedVideoIds = [
-    '7526380675844507167',
-    '7526380672710247455',
-    '7435925695869501496'
+    '7497757190514658590',
+    '7340832449695436078',
+    '7343775795535678766'
   ];
 
   useEffect(() => {
