@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { ChevronDown, ChevronUp, HelpCircle } from 'lucide-react';
+import { TIKTOK_HANDLE } from '../config';
 
 const FAQ = () => {
   const [openItem, setOpenItem] = useState(null);
@@ -19,7 +20,7 @@ const FAQ = () => {
     },
     {
       question: 'Do you ship internationally?',
-      answer: 'Currently, we ship within the United States only due to agricultural regulations. We\'re working on international shipping partnerships and hope to expand to Canada and select European countries in the near future. Follow our TikTok for updates on international availability.'
+      answer: `Currently, we ship within the United States only due to agricultural regulations. We're working on international shipping partnerships and hope to expand to Canada and select European countries in the near future. Follow our TikTok @${TIKTOK_HANDLE} for updates on international availability.`
     },
     {
       question: 'How should I prepare my tank for new plants?',
@@ -43,7 +44,7 @@ const FAQ = () => {
     },
     {
       question: 'How can I follow your TikTok content for more tips?',
-      answer: 'Find us on TikTok @AquaScapePro for daily plant care tips, transformation videos, and live Q&A sessions. We post new content regularly featuring customer success stories, seasonal care advice, and behind-the-scenes looks at our nursery operations. Our TikTok community is the best place for real-time plant care support!'
+      answer: `Find us on TikTok @${TIKTOK_HANDLE} for daily plant care tips, transformation videos, and live Q&A sessions. We post new content regularly featuring customer success stories, seasonal care advice, and behind-the-scenes looks at our nursery operations. Our TikTok community is the best place for real-time plant care support!`
     }
   ];
 

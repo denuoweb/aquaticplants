@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ChevronLeft, ChevronRight, Play, ZoomIn } from 'lucide-react';
+import { ChevronRight, Play, ZoomIn } from 'lucide-react';
 
 const Gallery = () => {
   const [activeCategory, setActiveCategory] = useState('growth-stages');
