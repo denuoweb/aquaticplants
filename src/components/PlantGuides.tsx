@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Droplets, Thermometer, Sun, Clock, AlertCircle, CheckCircle } from 'lucide-react';
+import { Droplets, Thermometer, Sun, AlertCircle, CheckCircle } from 'lucide-react';
 
 const PlantGuides = () => {
   const [activeTab, setActiveTab] = useState('jungle-val');

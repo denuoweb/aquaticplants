@@ -46,13 +46,13 @@ const Checkout = () => {
     return formData.address && formData.city && formData.state && formData.zipCode;
   };
 
-  const handlePayPalSuccess = (details: any) => {
+  const handlePayPalSuccess = (details: Record<string, unknown>) => {
     setOrderId(details.id);
     setOrderComplete(true);
     clearCart();
   };
 
-  const handlePayPalError = (error: any) => {
+  const handlePayPalError = (error: unknown) => {
     console.error('PayPal payment error:', error);
     alert('Payment failed. Please try again.');
   };
