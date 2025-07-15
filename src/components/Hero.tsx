@@ -14,7 +14,7 @@ const Hero = () => {
           {/* Badge */}
           <div className="inline-flex items-center space-x-2 bg-white/10 backdrop-blur-md px-4 py-2 rounded-full border border-white/20">
             <Star className="h-4 w-4 text-yellow-400 fill-current" />
-            <span className="text-white text-sm font-medium">15M+ TikTok Views</span>
+            <span className="text-white text-sm font-medium">16M+ TikTok Views</span>
           </div>
 
           {/* Main Heading */}
@@ -27,7 +27,7 @@ const Hero = () => {
 
           {/* Subtitle */}
           <p className="text-xl md:text-2xl text-blue-100 max-w-3xl mx-auto leading-relaxed">
-            Premium aquatic plants with expert care guides. From TikTok viral content to your living room masterpiece.
+            Premium aquatic plants with expert care guides. From a guy in a fishroom to your living room masterpiece.
           </p>
 
           {/* CTA Buttons */}
@@ -58,11 +58,11 @@ const Hero = () => {
               <div className="text-blue-200 mt-2">TikTok Views</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-white">50K+</div>
-              <div className="text-blue-200 mt-2">Happy Customers</div>
+              <div className="text-3xl md:text-4xl font-bold text-white">285K+</div>
+              <div className="text-blue-200 mt-2">TikTok Likes</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-white">99%</div>
+              <div className="text-3xl md:text-4xl font-bold text-white">100%</div>
               <div className="text-blue-200 mt-2">Plant Survival Rate</div>
             </div>
           </div>
