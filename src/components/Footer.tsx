@@ -49,60 +49,17 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Quick Links */}
-          <div>
-            <h4 className="text-lg font-semibold mb-6">Quick Links</h4>
-            <ul className="space-y-3">
-              <li><a href="#guides" className="text-gray-300 hover:text-green-400 transition-colors duration-200">Plant Guides</a></li>
-              <li><a href="#gallery" className="text-gray-300 hover:text-green-400 transition-colors duration-200">Gallery</a></li>
-              <li><a href="#shop" className="text-gray-300 hover:text-green-400 transition-colors duration-200">Shop Plants</a></li>
-              <li><a href="#testimonials" className="text-gray-300 hover:text-green-400 transition-colors duration-200">Reviews</a></li>
-              <li><a href="#faq" className="text-gray-300 hover:text-green-400 transition-colors duration-200">FAQ</a></li>
-            </ul>
-          </div>
-
-          {/* Customer Care */}
-          <div>
-            <h4 className="text-lg font-semibold mb-6">Customer Care</h4>
-            <ul className="space-y-3">
-              <li><a href="#" className="text-gray-300 hover:text-green-400 transition-colors duration-200">Shipping Info</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-green-400 transition-colors duration-200">Plant Guarantee</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-green-400 transition-colors duration-200">Care Instructions</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-green-400 transition-colors duration-200">Return Policy</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-green-400 transition-colors duration-200">Contact Support</a></li>
-            </ul>
-          </div>
-
           {/* Contact Info */}
           <div>
             <h4 className="text-lg font-semibold mb-6">Get in Touch</h4>
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-green-400 flex-shrink-0" />
-                <span className="text-gray-300">support@aquascapepro.com</span>
-              </div>
-              <div className="flex items-center space-x-3">
-                <Phone className="h-5 w-5 text-green-400 flex-shrink-0" />
-                <span className="text-gray-300">1-800-AQUASCAPE</span>
+                <span className="text-gray-300">fishroom@aquahound.com</span>
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="h-5 w-5 text-green-400 flex-shrink-0" />
-                <span className="text-gray-300">Miami, FL, USA</span>
-              </div>
-            </div>
-
-            {/* Newsletter Signup */}
-            <div className="mt-8">
-              <h5 className="font-semibold mb-3">Plant Care Newsletter</h5>
-              <div className="flex">
-                <input
-                  type="email"
-                  placeholder="Your email"
-                  className="flex-1 px-4 py-2 bg-gray-800 border border-gray-700 rounded-l-full text-white placeholder-gray-400 focus:outline-none focus:border-green-500"
-                />
-                <button className="bg-gradient-to-r from-green-500 to-blue-500 px-6 py-2 rounded-r-full hover:shadow-lg transition-all duration-300">
-                  Subscribe
-                </button>
+                <span className="text-gray-300">Plover, WI, USA</span>
               </div>
             </div>
           </div>
@@ -112,20 +69,20 @@ const Footer = () => {
         <div className="border-t border-gray-800 pt-8 mb-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div>
-              <div className="text-2xl font-bold text-green-400 mb-1">15M+</div>
+              <div className="text-2xl font-bold text-green-400 mb-1">16M+</div>
               <div className="text-gray-400 text-sm">TikTok Views</div>
             </div>
             <div>
-              <div className="text-2xl font-bold text-blue-400 mb-1">50K+</div>
-              <div className="text-gray-400 text-sm">Happy Customers</div>
+              <div className="text-2xl font-bold text-blue-400 mb-1">285K+</div>
+              <div className="text-gray-400 text-sm">TikTok Likes</div>
             </div>
             <div>
-              <div className="text-2xl font-bold text-purple-400 mb-1">99%</div>
+              <div className="text-2xl font-bold text-purple-400 mb-1">100%</div>
               <div className="text-gray-400 text-sm">Survival Rate</div>
             </div>
             <div>
-              <div className="text-2xl font-bold text-orange-400 mb-1">24/7</div>
-              <div className="text-gray-400 text-sm">Expert Support</div>
+              <div className="text-2xl font-bold text-orange-400 mb-1">Your</div>
+              <div className="text-gray-400 text-sm">Expert!</div>
             </div>
           </div>
         </div>
