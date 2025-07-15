@@ -7,7 +7,7 @@ const PlantGuides = () => {
   const plants = {
     'jungle-val': {
       name: 'Jungle Vallisneria',
-      image: 'https://images.pexels.com/photos/1108572/pexels-photo-1108572.jpeg?auto=compress&cs=tinysrgb&w=600',
+      image: 'https://iili.io/FWCG9tV.md.png',
       description: 'A fast-growing background plant perfect for creating lush underwater forests',
       requirements: {
         light: 'Low to Medium',
@@ -29,7 +29,7 @@ const PlantGuides = () => {
     },
     'ludwigia': {
       name: 'Ludwigia Repens',
-      image: 'https://images.pexels.com/photos/1123982/pexels-photo-1123982.jpeg?auto=compress&cs=tinysrgb&w=600',
+      image: 'https://iili.io/FWCG2P1.md.png',
       description: 'Stunning red-stemmed plant that adds vibrant color to any aquascape',
       requirements: {
         light: 'Medium to High',
