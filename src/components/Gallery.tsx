@@ -9,19 +9,17 @@ const Gallery = () => {
     'growth-stages': {
       title: 'Growth Stages',
       items: [
-        { type: 'image', src: 'https://images.pexels.com/photos/1108572/pexels-photo-1108572.jpeg?auto=compress&cs=tinysrgb&w=800', alt: 'Week 1 - New plantings' },
-        { type: 'image', src: 'https://images.pexels.com/photos/1123982/pexels-photo-1123982.jpeg?auto=compress&cs=tinysrgb&w=800', alt: 'Week 4 - Established growth' },
-        { type: 'image', src: 'https://images.pexels.com/photos/1374285/pexels-photo-1374285.jpeg?auto=compress&cs=tinysrgb&w=800', alt: 'Week 8 - Full maturity' },
-        { type: 'video', src: 'https://images.pexels.com/photos/1374285/pexels-photo-1374285.jpeg?auto=compress&cs=tinysrgb&w=800', alt: 'Time-lapse growth' }
+        { type: 'image', src: 'https://iili.io/FWnJBGs.md.png', alt: 'Growth Stages of Jungle Vallisneria' },
+        { type: 'image', src: 'https://iili.io/FWxYCfn.md.png', alt: 'Growth Stages of Ludwigia Repens' }
       ]
     },
     'aquascaping': {
       title: 'Aquascaping Designs',
       items: [
-        { type: 'image', src: 'https://images.pexels.com/photos/1374285/pexels-photo-1374285.jpeg?auto=compress&cs=tinysrgb&w=800', alt: 'Dutch style aquascape' },
-        { type: 'image', src: 'https://images.pexels.com/photos/1108572/pexels-photo-1108572.jpeg?auto=compress&cs=tinysrgb&w=800', alt: 'Nature style tank' },
-        { type: 'image', src: 'https://images.pexels.com/photos/1123982/pexels-photo-1123982.jpeg?auto=compress&cs=tinysrgb&w=800', alt: 'Iwagumi style setup' },
-        { type: 'video', src: 'https://images.pexels.com/photos/1374285/pexels-photo-1374285.jpeg?auto=compress&cs=tinysrgb&w=800', alt: 'Aquascaping tutorial' }
+        { type: 'image', src: 'https://iili.io/FWzGkfp.png', alt: 'Dutch style aquascape' },
+        { type: 'image', src: 'https://iili.io/FWzGNWv.png', alt: 'Nature style tank' },
+        { type: 'image', src: 'https://iili.io/FWzGv0N.png', alt: 'Iwagumi style setup' },
+        { type: 'image', src: 'https://iili.io/FWzGOsR.png', alt: 'Aquascaping tutorial' }
       ]
     },
     'transformations': {
@@ -104,13 +102,6 @@ const Gallery = () => {
               )}
             </div>
           ))}
-        </div>
-
-        {/* View More Button */}
-        <div className="text-center mt-12">
-          <button className="bg-gradient-to-r from-green-500 to-blue-500 text-white px-8 py-4 rounded-full font-semibold hover:shadow-lg transform hover:scale-105 transition-all duration-300">
-            View Full Gallery
-          </button>
         </div>
       </div>
 
